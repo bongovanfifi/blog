@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog",
+    "section": "",
+    "text": "It’s me.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI’m Using Tilt Controls! And You Should Too.\n\n\n\n\n\n\ngames\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "More to come."
+  },
+  {
+    "objectID": "posts/gyro/gyro.html",
+    "href": "posts/gyro/gyro.html",
+    "title": "I’m Using Tilt Controls! And You Should Too.",
+    "section": "",
+    "text": "“Gyro control” promises mouse-like precision without aim assist while using a controller. It does this by using very small movements of the controller as input, almost always as an alternative to aiming with the right analog stick. This is great for me, because I’ve found that I never want to play games at my desk with the mouse and keyboard when I’ve already been sitting at my desk on mouse and keyboard all day.\nAlso, it’s fun and intuitive. People already jerk their controller around while playing games, why not make that an input? The best part is, if you own a modern controller, you can (probably) try it without buying anything."
+  },
+  {
+    "objectID": "posts/gyro/gyro.html#an-example",
+    "href": "posts/gyro/gyro.html#an-example",
+    "title": "I’m Using Tilt Controls! And You Should Too.",
+    "section": "An Example",
+    "text": "An Example\nIn Helldivers 2 without Steam Input gyro did not work. With Steam Input the native support fought Steam Input’s configs and weird buggy behavior was common. Mostly this meant my character staring into the sun while being eaten by bugs / turned into a picnic table by chainsaw-wielding robots while I fumbled with configs. So I instead mapped everything on the controller to mouse and keyboard inputs and it worked perfectly. By convincing the game you’re just using the default mouse and keyboard, you get the best supported control scheme and you can reuse your tuned personal gyro settings across games without having to petition the devs for better support and feature parity with whatever your favorite implementation of gyro is. Mouse and keyboard provides us with a perfect interface already, why bother with native support?\nI hear some people are good at making hybrid setups work, so I think it might be worth trying the couple most popular Steam Community layouts. I may update this later, but I haven’t tried a hybrid layout yet that “just worked”."
+  },
+  {
+    "objectID": "posts/gyro/gyro.html#flick-stick",
+    "href": "posts/gyro/gyro.html#flick-stick",
+    "title": "I’m Using Tilt Controls! And You Should Too.",
+    "section": "Flick Stick",
+    "text": "Flick Stick\nThis is probably the most important setting. Once you’ve freed up your right stick, you can use it to make very large movements (like fully turning around) instantly rather than aiming. This is very useful, as those large movements are kind of annoying otherwise."
+  },
+  {
+    "objectID": "posts/gyro/gyro.html#gyro-ratcheting",
+    "href": "posts/gyro/gyro.html#gyro-ratcheting",
+    "title": "I’m Using Tilt Controls! And You Should Too.",
+    "section": "Gyro Ratcheting",
+    "text": "Gyro Ratcheting\nRatcheting refers to the ability to disable the gyro briefly so you can move the controller back to a neutral position without moving the game’s camera. I often map this to my mode switch button.\nFor some reason, in Steam Input you don’t set a gyro disable button,you set a gyro enable button (even if gyro is always on) and set the behavior of the enable button to be disabling the gyro. Intuitive! Credit"
+  },
+  {
+    "objectID": "posts/gyro/gyro.html#sensitivity",
+    "href": "posts/gyro/gyro.html#sensitivity",
+    "title": "I’m Using Tilt Controls! And You Should Too.",
+    "section": "Sensitivity",
+    "text": "Sensitivity\nYou’re probably going to start with the sensitivity too low while you’re getting used to it. This is fine. Eventually you’ll probably get tired of making big movements and turn it up."
+  },
+  {
+    "objectID": "posts/gyro/gyro.html#d-to-2d",
+    "href": "posts/gyro/gyro.html#d-to-2d",
+    "title": "I’m Using Tilt Controls! And You Should Too.",
+    "section": "3D to 2D",
+    "text": "3D to 2D\nFor some reason Steam Input defaults to just using “Yaw”, reading input from how the controller is turned or tipped. You probably also want to use “Roll”, which reads how the controller is “twisted” as well. If it makes sense to you that you should be able to turn the controller so the top faces left when you want to turn left, use “Roll” as well. Try out the settings, reading about them is very abstract, when you actually try the different options you will immediately understand how they work, and if you’re anything like me, one setting will seem obviously right and the rest obviously wrong. If you want to read about it anyway, here you go."
+  }
+]
