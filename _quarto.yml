@@ -3,11 +3,13 @@ project:
 
 website:
   title: "blog"
+  site-url: https://bongovanfifi.github.io/blog
+  repo-url: https://github.com/bongovanfifi/blog
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/bongovanfifi
 
 format:
   html:
