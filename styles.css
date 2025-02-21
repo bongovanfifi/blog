@@ -1,1 +1,16 @@
-/* css styles */
+/* Override all font families */
+body,
+p,
+.navbar,
+h1, h2, h3, h4, h5, h6,
+.title,
+.quarto-title-banner,
+.nav,
+.breadcrumb,
+.pagination,
+.dropdown-menu,
+.alert,
+.list-group,
+.lead {
+    font-family: "Atkinson Hyperlegible", sans-serif !important;
+}

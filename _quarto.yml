@@ -2,18 +2,24 @@ project:
   type: website
 
 website:
-  title: "if foo: gb"
+  title: "blog"
   navbar:
     right:
       - about.qmd
       - icon: github
         href: https://github.com/
+
 format:
   html:
+    # number-sections: false
+    # toc: true
     theme:
-      - cosmo
-      - brand
+      light: custom-light.scss
+      dark: custom-dark.scss
     css: styles.css
-
+    mainfont: "Atkinson Hyperlegible"
+    include-in-header:
+      - text: |
+          <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 

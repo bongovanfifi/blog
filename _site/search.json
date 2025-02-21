@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "blog",
-    "section": "",
-    "text": "It’s me.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI’m Using Tilt Controls! And You Should Too.\n\n\n\n\n\n\ngames\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -68,5 +47,40 @@
     "title": "I’m Using Tilt Controls! And You Should Too.",
     "section": "3D to 2D",
     "text": "3D to 2D\nFor some reason Steam Input defaults to just using “Yaw”, reading input from how the controller is turned or tipped. You probably also want to use “Roll”, which reads how the controller is “twisted” as well. If it makes sense to you that you should be able to turn the controller so the top faces left when you want to turn left, use “Roll” as well. Try out the settings, reading about them is very abstract, when you actually try the different options you will immediately understand how they work, and if you’re anything like me, one setting will seem obviously right and the rest obviously wrong. If you want to read about it anyway, here you go."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Filter to “projects” to find all of the coding project blog posts.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na rag man\n\n\nThe world’s first fun anagram tool.\n\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI’m Using Tilt Controls! And You Should Too.\n\n\n\n\n\n\ngames\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/aragman.html",
+    "href": "posts/aragman.html",
+    "title": "a rag man",
+    "section": "",
+    "text": "I made “a rag man” because the other anagram websites I found are focused on finding complete single-word anagrams, typically using the scrabble worldlist, often explicitly to win at word games. This both misses the point of games and also squanders the fun of anagrams.\nThis led me to build the site / word-toy “a rag man”. It allows you to iteratively build multi-word anagrams. It also allows you to add and use any arbitrary nonsense word you want. If there’s some slang you find funny or meaningful, or a missing word, go ahead, throw it in."
+  },
+  {
+    "objectID": "posts/aragman.html#funny-little-anagrmas",
+    "href": "posts/aragman.html#funny-little-anagrmas",
+    "title": "a rag man",
+    "section": "Funny Little Anagrmas",
+    "text": "Funny Little Anagrmas"
+  },
+  {
+    "objectID": "posts/aragman.html#other-features",
+    "href": "posts/aragman.html#other-features",
+    "title": "a rag man",
+    "section": "Other Features!",
+    "text": "Other Features!\n\nOptimized for sharing, option panel, etc. finish this section"
+  },
+  {
+    "objectID": "posts/aragman.html#implementation-details-boring",
+    "href": "posts/aragman.html#implementation-details-boring",
+    "title": "a rag man",
+    "section": "Implementation Details (Boring)",
+    "text": "Implementation Details (Boring)\n\nAlgorithms and LLMs\nThe classic way to solve these anagram problems is using some kind of Counter-like structure. However, I wanted to all substring anagrams. This is basically a permutation problem, and calculating permutations is incredibly slow. We could use caching, but why do that when you can just write a good algorithm instead? What I did was first, get a word list, then create a word map from it where the key is the sorted characters, and the value is an array of all the words that correspond to that sorted string. Then, sort the input and then just write an algorithm to look up all the valid combinations and return those. This lowers our running time from O(n!) to O(2^n). That’s uh, basically good! TODO: include a graph or something.\nThis algorithm was apparently incomprehensible to any LLMs I showed it to. I consistently have this issue with recursive algorithms that are not widely used in Leetcode problems, and even some that are! Part of the issue might have been that I was doing something a little atypical with anagrams.\n\n\nFrameworks, Languages\nI used React for a couple reasons. First, I had to use it professionally, so I already know it. Second, I wanted it to be able to work entirely client-side and offline (though I know there are other ways to do this). Finally, it seemed like a natural fit for a small stateful app. I thought it would be pretty pleasant without all the Redux store nonsense, there shouldn’t be a huge mess of hooks. I wanted to give React an opportunity to really shine. It was… only okay! Kind of annoying. I experienced the standard annoyances with managing state and triggering/avoiding rerenders, and surprisingly, even race conditions. I ironed those out, but sometimes it still does the ol’ React flicker, which I don’t really want to spend a ton of time ironing out.\nRecently I also dedicated a whole day to making a CRUD app with Streamlit, a technology I had never interacted with until that day. I managed to ship an MVP the same day. Another win for the one-day-one-project method. I expected it to be totally smooth sailing, but instead I had to fight some of the same battles with state and rerendering. There were no race conditions, except now there had to be some server actively running Python, which makes serving it much more of a pain. I think a lot of these issues are just inherent to this sort of rerendering stateful app, Streamlit made React look good, but that’s not a ringing endorsement of either."
   }
 ]

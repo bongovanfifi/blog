@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/aragman.html",
       "/posts/gyro/gyro.html"
     ]
   }

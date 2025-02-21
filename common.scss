@@ -1,0 +1,47 @@
+/*-- scss:rules --*/
+
+body {
+    font-size: 1.1rem !important;
+}
+
+
+// Special dark theme override for navbar
+body.quarto-dark .navbar {
+    background-color: black !important;
+}
+
+.navbar {
+    background-color: var(--bs-body-bg) !important;
+}
+
+.navbar-brand, 
+.navbar .nav-link {
+    color: var(--bs-body-color) !important;
+}
+ 
+.navbar .nav-link:hover,
+.navbar-brand:hover {
+    color: var(--bs-primary) !important;
+} 
+
+
+.quarto-title-banner,
+.quarto-title-banner h1.title,
+.quarto-title-banner .subtitle,
+.quarto-title-banner .quarto-title-meta {
+    color: var(--bs-body-color) !important;
+    background-color: var(--bs-body-bg) !important;
+    // padding-top: 0.5rem !important;
+    padding-bottom: 0rem !important;
+    // margin-bottom: 0rem !important;
+}
+
+.quarto-category,
+.listing-category,
+.quarto-categories .category {
+    color: var(--bs-body-color) !important;
+    border-color: var(--bs-body-color) !important;
+    opacity: 0.8;
+    border: 1px solid !important;
+    border-radius: 0 !important;
+}
