@@ -18,6 +18,4 @@ format:
     theme:
       light: custom-light.scss
       dark: custom-dark.scss
-    css: styles.css
-
 
