@@ -3,7 +3,7 @@ project:
 
 website:
   title: "blog"
-  site-url: https://bongovanfifi.github.io/blog
+  site-url: https://futz.zone
   repo-url: https://github.com/bongovanfifi/blog
   navbar:
     right:
@@ -19,9 +19,5 @@ format:
       light: custom-light.scss
       dark: custom-dark.scss
     css: styles.css
-    mainfont: "Atkinson Hyperlegible"
-    include-in-header:
-      - text: |
-          <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 
