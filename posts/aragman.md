@@ -12,6 +12,8 @@ This led me to build the site / word-toy "a rag man". It allows you to iterative
 
 ## Funny Little Anagrmas
 
+dinky leprosy oaf
+
 ## Other Features!
 
 - Optimized for sharing, option panel, etc. finish this section
