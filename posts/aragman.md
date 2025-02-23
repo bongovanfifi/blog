@@ -2,7 +2,9 @@
 title: "a rag man"
 subtitle: "The world's first fun anagram tool."
 categories:
+    - coding
     - projects
+date: "2025-02-22"
 ---
 
 I made ["a rag man"](https://aragman.futz.zone/) because the other anagram websites I found are focused on finding complete single-word anagrams, typically using the scrabble worldlist, often explicitly to win at word games.
