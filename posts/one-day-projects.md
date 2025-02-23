@@ -2,6 +2,7 @@
 title: "One Day Projects, Productivity Systems"
 subtitle: "Once again finding out that ubiquitous advice is ubiquitous because it's true."
 categories:
+    - coding
     - projects
 date: "2025-02-23"
 ---
