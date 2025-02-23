@@ -12,5 +12,5 @@ h1, h2, h3, h4, h5, h6,
 .alert,
 .list-group,
 .lead {
-    font-family: "Atkinson Hyperlegible", sans-serif !important;
+    font-family: "system-ui, 'sans-serif", !important;
 }
