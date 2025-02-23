@@ -4,8 +4,6 @@ categories:
     - games
 ---
 
-# What is Gyro Control 
-
 "Tilt controls" or "gyro controls" are a motion input method that promises [mouse-like precision without aim assist](https://www.youtube.com/watch?v=krQ_ggZcN1Q) while using a controller. It does this by using very small movements of the controller as input, almost always as an alternative to aiming with the right analog stick. While these are motion controls, the motion being detected is extremely small, rather than Wii sports style full body motion. Having a controller-based alternative that can work for any game is great for me, because I've found that I never want to play games at my desk using the mouse and keyboard when I've already been sitting at my desk using mouse and keyboard all day.
 
 Also, it's fun and intuitive. People already jerk their controller around while playing games, why not make that an input? The best part is, if you own a modern controller, you can (probably) try it without buying anything.
