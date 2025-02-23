@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>I’m Using Tilt Controls! And You Should Too. – blog</title>
+<title>obligatory-this-blog – blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -109,26 +109,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">I’m Using Tilt Controls! And You Should Too.</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">games</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -138,68 +119,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
-<section id="what-is-gyro-control" class="level1">
-<h1>What is Gyro Control</h1>
-<p>“Tilt controls” or “gyro controls” are a motion input method that promises <a href="https://www.youtube.com/watch?v=krQ_ggZcN1Q">mouse-like precision without aim assist</a> while using a controller. It does this by using very small movements of the controller as input, almost always as an alternative to aiming with the right analog stick. While these are motion controls, the motion being detected is extremely small, rather than Wii sports style full body motion. Having a controller-based alternative that can work for any game is great for me, because I’ve found that I never want to play games at my desk using the mouse and keyboard when I’ve already been sitting at my desk using mouse and keyboard all day.</p>
-<p>Also, it’s fun and intuitive. People already jerk their controller around while playing games, why not make that an input? The best part is, if you own a modern controller, you can (probably) try it without buying anything.</p>
-</section>
-<section id="how-do-i-use-gyro-control" class="level1">
-<h1>How Do I Use Gyro Control?</h1>
-<p>Using Gyro controls requires two things. First, any controller with a gyro sensor. Switch Pro controllers, Dualshock 4s, and DualSense controllers all have gyro, many third party controllers like 8BitDo Pro models do too. Notably, Xbox controllers do not.</p>
-<p>Next, you need <em>some kind</em> of gyro controller support. Modern consoles (not the Xbox) have pretty good gyro support. Counterstrike 2, Fortnite, and Apex Legends, all support gyro. If you play primarily on a console, the rest of the post won’t be relevant to you, stop reading and just go try it out.</p>
-<p>Unfortunately, native gyro support mostly sucks. Games will support one modern controller, like the DualSense, and completely break with another, like the Switch Pro. Even when it doesn’t suck, the implementation of gyro support isn’t standardized. Availability of customization options is extremely inconsistent. Some games only support one type of camera movement, some don’t have flick stick (we’ll get to this later). None of this matters because by using Steam Input, we can make any that game supports mouse and keyboard support gyro. Non-Steam games can be added to your Steam library, allowing you to use Steam Input. Outside of Steam you can use <a href="https://github.com/Electronicks/JoyShockMapper">JoyShockMapper</a> (free, more work) or <a href="https://www.rewasd.com/releases/release-5.3.0">reWASD</a>, which is a subscription service, but supposedly the most convenient and feature complete.</p>
-</section>
-<section id="hybrid-gamepad-gyro-vs-using-mouse-and-keyboard-binds" class="level1">
-<h1>Hybrid Gamepad + Gyro vs Using Mouse and Keyboard Binds</h1>
-<p>There is a hybrid approach where the game still behaves like you have a gamepad oustide of letting you use gyro aim. At time of writing, this doesn’t work well for me. I get weird little bugs, gyro doesn’t work, the game gets very confused about whether you’re using gamepad or mouse, instability. This is especially bad if the gamepad implementation was a bit half baked, which it often is in older games. So I just map everything in the controller to the equivalent default keyboard mapping for the game. The downside of just emulating mouse and keyboard is you lose button glyphs, so you’ll see “hit E” instead of “press A”. I don’t care about this, some people do.</p>
-<section id="an-example" class="level2">
-<h2 class="anchored" data-anchor-id="an-example">An Example</h2>
-<p>In Helldivers 2, gyro did not work when Steam Input was off. With Steam Input on, the native support fought Steam Input’s configs and weird buggy behavior was constant. Mostly this meant my character staring into the sun while being eaten by bugs / turned into a picnic table by chainsaw-wielding robots while I fumbled with configs. So I instead mapped everything on the controller to mouse and keyboard inputs and it worked perfectly. By convincing the game you’re just using the default mouse and keyboard, you get the best supported control scheme and you can reuse your tuned personal gyro settings across games without having to petition the devs for better support and / or feature parity with whatever your favorite implementation of gyro is. Mouse and keyboard provides us with a perfect interface already, why bother with native support?</p>
-<p>I hear some people are good at making hybrid setups work, so I think it might be worth trying the couple most popular Steam Community layouts. I may update this later, but I haven’t tried a hybrid layout yet that “just worked”.</p>
-</section>
-</section>
-<section id="i-dont-have-a-controller-which-one-should-i-buy" class="level1">
-<h1>I Don’t Have a Controller, Which One Should I Buy?</h1>
-<p>I would caution against buying a third party controller unless you want to do <em>even more</em> config finagling than you normally have to with gyro. With an unusual controller, you might not get recommended layouts for Steam, your OS might not read gyro inputs correctly, etc. If you’re on Linux, you might have to deal with 💀 Linux driver issues 💀. Stick with first party hardware. If you’re crazy you could spend $200 on a DualSense Edge. If you have an old DualShock 4 lying around, that could work too. Outside of those, your options are the DualSense and the Switch Pro.</p>
-<p>Reddit generally likes the DualSense. <a href="https://youtu.be/CenJLOTGxLc?si=jUzV9cW4qZuQj_7o&amp;t=946">Youtuber “Nerrell” found that the Switch Pro was a little more accurate</a>, I’ve seen a couple other people compare the modern options and find that the Switch Pro is a <em>little</em> better. I own a Switch, so I bought the Pro, and let me tell you, it does not have enough buttons. The DualSense has the whole pad there to map gesture controls, and I get the impression it generally gets better support. The Pro controller has no inputs beyond what you would expect from a 360 controller. That being said, Steam Input gives us the ability to deal with the lack of buttons. Creating mode switches (or layers? or I think they made a third thing?) in order to access more binds is good enough. Steam also lets you do things like map clicking a button once to one key, twice to another, and holding the button to a third, which is pretty useful for making one button deal with, for example, diving for cover (single tap), going prone (double tap), and crouch (hold).</p>
-<p>Anyway, I bought the controller from Pink Gorilla, a local shop that I’m always surprised is still chugging along, so I don’t want to return it.</p>
-<p>If you want a little more convenience and some more features, buy a DualSense. If you want marginally more accuracy, get a Switch Pro Controller. If you already own a Switch (which is more likely than owning a PS5 if you consider their sales figures, <a href="https://www.youtube.com/watch?v=UtG11pmBe3U">etc</a>), you might as well get the controller compatible with it.</p>
-</section>
-<section id="configuration" class="level1">
-<h1>Configuration</h1>
-<p>You could just settle for native support or Steam Community suggested layouts (if any are present for your game), but you’ll probably have to configure some stuff yourself. There are a <a href="https://www.reddit.com/r/GyroGaming/comments/198wq0y/new_to_gyro_gaming_start_here_gyro_beginners_guide/">lot</a> of <a href="https://www.youtube.com/watch?v=D0uSfda_-Rc">guides</a> out there that go into great detail, so I’m going to trust those to be better up-to-date comprehensive sources. Here I’m just going to hit a couple very common changes you might make, or situations you might find yourself in.</p>
-<section id="flick-stick" class="level2">
-<h2 class="anchored" data-anchor-id="flick-stick">Flick Stick</h2>
-<p>This is probably the most important setting. Once you’ve freed up your right stick, you can use it to make very large movements (like fully turning around) instantly rather than having to whip the controller around.</p>
-</section>
-<section id="gyro-ratcheting" class="level2">
-<h2 class="anchored" data-anchor-id="gyro-ratcheting">Gyro Ratcheting</h2>
-<p>Ratcheting refers to the ability to disable the gyro briefly so you can move the controller back to a neutral position without moving the game’s camera. I often map this to my mode switch button.</p>
-<p>For some reason, in Steam Input you don’t set a gyro disable button,you set a gyro enable button (even if gyro is always on) and set the behavior of the enable button to be disabling the gyro. Intuitive! <a href="https://www.reddit.com/r/GyroGaming/comments/ug54tk/comment/i6xgli4/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button">Credit</a></p>
-</section>
-<section id="sensitivity" class="level2">
-<h2 class="anchored" data-anchor-id="sensitivity">Sensitivity</h2>
-<p>You’re probably going to start with the sensitivity too low while you’re getting used to it. This is fine. Eventually you’ll probably get tired of making big movements and turn it up.</p>
-</section>
-<section id="d-to-2d" class="level2">
-<h2 class="anchored" data-anchor-id="d-to-2d">3D to 2D</h2>
-<p>For some reason Steam Input defaults to just using “Yaw”, reading input from how the controller is turned or tipped. You probably also want to use “Roll”, which reads how the controller is “twisted” as well. If it makes sense to you that you should be able to turn the controller so the top faces left when you want to turn left, use “Roll” as well. Try out the settings, reading about them is very abstract, when you actually try the different options you will immediately understand how they work, and if you’re anything like me, one setting will seem obviously right and the rest obviously wrong. If you want to read about it anyway, <a href="http://gyrowiki.jibbsmart.com/blog:player-space-gyro-and-alternatives-explained">here you go</a>.</p>
-</section>
-</section>
-<section id="tangent-about-tf2" class="level1">
-<h1>Tangent About TF2</h1>
-<p><a href="https://youtu.be/PJIqEX93vL8?si=sOfHWUPpjs1eLp4c">This video</a> prompted me to look into gyro controls, naturally I tried to make them work in TF2 first. The config shown in the video is available and extremely popular, but it didn’t work for me immediately. The inventory would open and then instantly close as if it was getting two inputs. Disabling the gamepad in settings seemed to did nothing, console commands either did nothing or broke it further, what worked was finding the Xbox 360 controller config text file and commenting everything out (deleting the contents would also work).</p>
-<p>For anyone else running into this, the file lives at:</p>
-<p><code>SteamLibrary\steamapps\common\TeamFortress2\tf\cfg\360controller.cfg</code></p>
-<p>So, if you want to play old, exceptionally buggy games with half-baked features in a way that they were never meant to be played, you may have to do this sort of thing.</p>
-</section>
-<section id="in-conclusion" class="level1">
-<h1>In Conclusion,</h1>
-<p>If this guide convinced you to try Gyro controls, send me a message on Github telling me how long you spent futzing with configurations and I’ll chuckle knowingly while shaking my head.</p>
+<p>describe how you get this subdomain thing to work</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
