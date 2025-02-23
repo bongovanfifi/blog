@@ -2,8 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/gyro.html",
-      "/posts/aragman.html"
+      "/posts/one-day-projects.html",
+      "/posts/aragman.html",
+      "/posts/gyro.html"
     ]
   }
 ]
