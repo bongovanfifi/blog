@@ -10,7 +10,7 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-Here I'll list links to projects that are public websites as I create them.
+Website projects:
 
 - [a rag man](https://aragman.futz.zone/) 
   
