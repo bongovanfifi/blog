@@ -10,8 +10,10 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-Website projects:
+Here's my funny little anagram static site, [a rag man](https://aragman.futz.zone/). The rest is on my [new GitHub](https://github.com/bongovanfifi), but I'm still moving some stuff into that account.
 
-- [a rag man](https://aragman.futz.zone/) 
-  
-Filter to "projects" to find all of the coding project blog posts.
+### The Blogs [That Are My Friends](https://www.youtube.com/watch?v=4c73rfydMew)
+- [Implicit Computer](https://implicit.computer/)
+- [wyattscarpenter](https://wyattscarpenter.github.io/)
+- [Here Comes the Moon](https://herecomesthemoon.net/)
+- [Erik Demaine's Site](https://erikdemaine.org/) I don't actually know Erik Demaine but this is an all-timer honestly.
