@@ -16,4 +16,4 @@ Here's my funny little anagram static site, [a rag man](https://aragman.futz.zon
 - [Implicit Computer](https://implicit.computer/)
 - [wyattscarpenter](https://wyattscarpenter.github.io/)
 - [Here Comes the Moon](https://herecomesthemoon.net/)
-- [Erik Demaine's Site](https://erikdemaine.org/) I don't actually know Erik Demaine but this is an all-timer honestly.
+- [Erik Demaine's](https://erikdemaine.org/) and [Tom7's](http://tom7.org/) blogs. I don't actually know these fellas personally, but the blogs are good.
